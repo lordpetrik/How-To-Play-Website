@@ -1,0 +1,301 @@
+body {
+    margin: 0;
+    background-color: rgb(249, 255, 211);
+  }
+  
+  .main-header {
+    background-color: rgb(1, 195, 209);
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 48px;
+    margin: 0;
+  }
+  .header-info {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 0;
+    padding: 0;
+    margin-top: 14px;
+    margin-left: 20px;
+  }
+  .header-info a {
+    padding: 0;
+    text-decoration: none;
+  }
+  .header-info a:hover {
+    background-color: transparent;
+  }
+  
+  nav {
+    position: absolute;
+    right: 0;
+    display: flex;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    float: left;
+  }
+  
+  .insidenav:hover {
+    background-color: rgb(119, 154, 157);
+    border: rgb(0, 255, 0) 5px solid;
+    border-radius: 10px;
+  }
+  
+  .tittletxt {
+    font-size: 70px;
+    margin: 30px;
+    color: white;
+  }
+  
+  .tittle {
+    color: white;
+    /* margin: 10px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url(genshinassets/genshin-characters.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .tittle {
+      background-image: url(genshinassets/GenshinImpact_MondstadtWallpaperKleeBarbaraNoelle-scaled.jpeg);
+    }
+  }
+  
+  .dvdline {
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: #00b7ff;
+  }
+  
+  .subtitle {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+  }
+  
+  .tips1 {
+    border: rgb(0, 162, 255) solid 5px;
+    margin: 10px;
+    border-radius: 10px;
+    color: rgb(10, 10, 10);
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .insidetipstxt{
+    
+        /* border: red solid 5px; */
+        margin: 10px;
+        /* border-radius: 10px; */
+        color: rgb(10, 10, 10);
+        text-align: center;
+        justify-content: space-evenly;
+        /* display: flex;
+        flex-direction: row; */
+      
+  }
+
+  .insidetipstxt2{
+    
+    /* border: red solid 5px; */
+    margin: 10px;
+    /* border-radius: 10px; */
+    color: rgb(10, 10, 10);
+    text-align: center;
+    justify-content: space-evenly;
+    /* display: flex;
+    flex-direction: row; */
+  
+}
+  
+  .tipsimgmod1 {
+    width: 700px;
+    height: 300px;
+    text-align: center;
+    margin: 50px;
+  }
+
+  .tipsimg {
+    width: 700px;
+    height: 300px;
+    text-align: center;
+  }
+  
+  .tipstxt {
+    text-align: left;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .tipsimg {
+      width: 300px;
+      height: 150px;
+    }
+
+    .tipsimgmod1 {
+      width: 300px;
+      height: 150px;
+      margin: 10px;
+    }
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--sec-bg);
+    width: 100%;
+    height: auto;
+  }
+  
+  .card {
+    border: 3px solid rgb(0, 238, 255);
+    border-radius: 10px;
+    background-color: #99c1fd;
+    margin: 10px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--sec-bg);
+    width: 100%;
+    height: auto;
+  }
+  
+  .tips2 {
+    border: rgb(0, 149, 255) solid 5px;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+  }
+  
+  table,
+  tr,
+  th,
+  td {
+    border: 2px solid rgb(0, 166, 255);
+    border-collapse: collapse;
+    margin: 10px;
+    font-size: 30px;
+  }
+  
+  td {
+    font-size: 20px;
+    text-transform: capitalize;
+  }
+  
+  .mmimg {
+    width: 100px;
+    text-align: center;
+    margin: 0px 5px;
+  }
+  
+  .fightimg {
+    width: 100px;
+    text-align: center;
+    margin: 0px 5px;
+  }
+  .mageimg {
+    width: 100px;
+    text-align: center;
+    margin: 0px 5px;
+  }
+  .assasinimg {
+    width: 100px;
+    text-align: center;
+    margin: 0px 5px;
+  }
+  .supportimg {
+    width: 100px;
+    text-align: center;
+    margin: 0px 5px;
+  }
+  .tankimg {
+    width: 100px;
+    text-align: center;
+    margin: 0px 5px;
+  }
+  
+  @media screen and (max-width:600px) {
+    
+  img{
+    width: 50px;
+  }
+  
+  .mmimg{
+    width: 50px;
+    margin: 0px 2px;
+  }
+  
+  .fightimg{
+    width: 50px;
+    margin: 0px 2px;
+  }
+  .tankimg{
+    width: 50px;
+    margin: 0px 2px;
+  }
+  .mageimg{
+    width: 50px;
+    margin: 0px 2px;
+  }
+  .assasinimg{
+    width: 50px;
+    margin: 0px 2px;
+  }
+  .supportimg{
+    width: 50px;
+    margin: 0px 2px;
+  }
+  }
+  
+  .tipsrtkiri{
+    border: rgb(145, 255, 0) solid 5px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+  }
+  
+  @media screen and (max-width:600px) {
+  .ytvid{
+    width: 300px;
+    height: 200px;
+    margin-left: 5px;
+  }
+  
+  .ytvidkiri{
+    width: 300px;
+    height: 200px;
+    margin-right: 5px;
+  }
+  }
+  
+  .tipsrtkanan{
+  border: rgb(166, 255, 0) solid 5px;
+  margin: 10px;
+  border-radius: 10px;
+
+  text-align: right;
+  }
+
+  .tierimg{
+    width: 50px;
+    margin: 0px 2px;
+  }
